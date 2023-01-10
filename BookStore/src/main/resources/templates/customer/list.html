@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>customer::list</title>
+	</head>
+	<body>
+		<h3>고객목록</h3>
+		<a th:href="@{/index}">처음으로</a>
+		<a th:href="@{/customer/register}">고객등록</a>
+		<table border="1">
+			<tr>
+				<th>고객번호</th>
+				<th>고객명</th>
+				<th>주소</th>
+				<th>휴대폰</th>
+				<th>관리</th>
+			</tr>
+			<tr th:each="cust:${custs}">
+				<td th:text="${cust.custId}">고객번호</td>
+				<td th:text="${cust.name}">고객명</td>
+				<td th:text="${cust.address}">주소</td>
+				<td th:text="${cust.phone}">휴대폰</td>
+				<td>
+					<a th:href="@{/customer/modify?(custId=${cust.custId})}">수정</a>
+					<a th:href="@{/customer/delete?(custId=${cust.custId})}">삭제</a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
