@@ -31,7 +31,7 @@ public interface User1Repo extends JpaRepository<User1VO, String> {
 	public List<User1VO> findUser1VOByNameStartsWith(String name); // %가 뒤에붙음
 	public List<User1VO> findUser1VOByNameEndsWith(String name); // %가 앞에붙음
 	
-	//public List<User1VO> findUser1VOByOrderByName(String name);
+	//4public List<User1VO> findUser1VOByOrderByName(String name);
 	//public List<User1VO> findUser1VOByOrderByAgeAsc(int age);
 	//public List<User1VO> findUser1VOByOrderByAgeDesc(int age);
 	public List<User1VO> findUser1VOByAgeGreaterThanOrderByAgeDesc(int age);
