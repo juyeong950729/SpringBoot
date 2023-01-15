@@ -6,6 +6,7 @@ import kr.co.ch08.vo.User2VO;
 
 public interface User2Repo extends JpaRepository<User2VO, String> {
 
+	public void insertUser2(User2VO vo);
 	public User2VO findUser2VOByUidAndPass(String uid, String pass);
 	
 }
