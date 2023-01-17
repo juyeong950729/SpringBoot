@@ -28,9 +28,6 @@ public class MyUserDetails implements UserDetails {
 	private int age;
 	private LocalDateTime rdate;
 	
-	@Singular
-	public List<String> roles;
-
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// 계정이 갖는 권한 목록
