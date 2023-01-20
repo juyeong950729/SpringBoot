@@ -31,6 +31,7 @@ public class ArticleVO {
 	
 	// 추가필드
 	private String nick;
+	private FileVO fileVO;
 	
 	public String getRdate() {
 		return rdate.substring(2, 10);

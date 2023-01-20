@@ -19,8 +19,8 @@
         <main id="board" class="write">
             
             <form th:action="@{/write}" method="post" enctype="multipart/form-data">
-            	<input type="hidden" name="uid" th:value="${#authentication.principal.user.nick}"/>
-            	<input type="hidden" name="regip" th:value="${#authentication.details.remoteAddress}"/>
+            	<input type="hidden" name="uid" th:value="${#authentication.principal.user.uid}">
+            	<input type="hidden" name="regip" th:value="${#authentication.details.remoteAddress}">
                 <table border="0">
                     <caption>글쓰기</caption>
                     <tr>
