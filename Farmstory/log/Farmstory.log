@@ -20079,3 +20079,8 @@ Cookie: JSESSIONID=A77E9EF4385F91714D641AAFA8C01F00
 2023-01-25 19:42:05.945 DEBUG 2440 --- [http-nio-8080-exec-1] o.apache.tomcat.util.threads.LimitLatch  : Counting down[http-nio-8080-exec-1] latch=1
 2023-01-25 19:42:05.945 DEBUG 2440 --- [http-nio-8080-exec-1] org.apache.tomcat.util.net.NioEndpoint   : Calling [org.apache.tomcat.util.net.NioEndpoint@24eb5fa0].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@70528f67:org.apache.tomcat.util.net.NioChannel@667c6e46:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:58008]])
 2023-01-25 19:42:22.691 DEBUG 2440 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-25 19:42:22.691 DEBUG 2440 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Fill pool skipped, pool is at sufficient level.
+2023-01-25 19:42:52.692 DEBUG 2440 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-01-25 19:42:52.692 DEBUG 2440 --- [HikariPool-4 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Fill pool skipped, pool is at sufficient level.
+2023-01-25 19:42:53.157 DEBUG 2440 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : Start expire sessions StandardManager at 1674643373157 sessioncount 0
+2023-01-25 19:42:53.157 DEBUG 2440 --- [Catalina-utility-1] org.apache.catalina.session.ManagerBase  : End expire sessions StandardManager processingTime 0 expired sessions: 0
