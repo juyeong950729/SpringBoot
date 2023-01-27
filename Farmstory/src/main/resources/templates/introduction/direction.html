@@ -4,7 +4,7 @@
             <div><img th:src="@{/img/sub_top_tit1.png}" alt="INTRODUCTION"></div>
             <section class="cate1">
                 <aside>
-                    <img th:src="@{img/sub_aside_cate1_tit.png}" alt="팜스토리 소개"/>
+                    <img th:src="@{/img/sub_aside_cate1_tit.png}" alt="팜스토리 소개"/>
                     <ul class="lnb">
                         <li><a th:href="@{/introduction/hello}">인사말</a></li>
                         <li class="on"><a th:href="@{/introduction/direction}">찾아오시는 길</a></li>
@@ -51,5 +51,5 @@
                 </article>
             </section>
         </div>
-<th:block th:include="@{_footer.html}"/>
+<th:block th:include="~{_footer}"/>
 </html>

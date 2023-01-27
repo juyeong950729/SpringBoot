@@ -1,7 +1,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <th:block th:replace="~{/_header}"/>
         <main id="user" class="login">
-            <form th:action="@{/}">
+            <form action="#" method="post">
                 <table border="0">
                     <tr>
                         <td><img th:src="@{/img/login_ico_id.png}" alt="로그인"/></td>
@@ -23,5 +23,5 @@
                 <a th:href="@{/user/terms}">회원가입</a>
             </div>
         </main>
-<th:block th:replace="@{/_footer}"/>
+<th:block th:replace="~{/_footer}"/>
 </html>
