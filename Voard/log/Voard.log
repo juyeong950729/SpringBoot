@@ -1,0 +1,56 @@
+2023-04-28 19:16:07.079  INFO 10172 --- [restartedMain] kr.co.voard.VoardApplication             : Starting VoardApplication using Java 17.0.4 on 1004- with PID 10172 (C:\Users\java2\Desktop\WorkSpace\SpringBoot\Voard\target\classes started by java2 in C:\Users\java2\Desktop\WorkSpace\SpringBoot\Voard)
+2023-04-28 19:16:07.083  INFO 10172 --- [restartedMain] kr.co.voard.VoardApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 19:16:07.137  INFO 10172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-28 19:16:07.137  INFO 10172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-28 19:16:07.831  INFO 10172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 19:16:07.887  INFO 10172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-04-28 19:16:08.573  INFO 10172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 19:16:08.584  INFO 10172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 19:16:08.584  INFO 10172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-28 19:16:08.646  INFO 10172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Voard]  : Initializing Spring embedded WebApplicationContext
+2023-04-28 19:16:08.646  INFO 10172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1509 ms
+2023-04-28 19:16:08.827  INFO 10172 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28 19:16:08.888  INFO 10172 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-28 19:16:09.055  INFO 10172 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-28 19:16:09.140  INFO 10172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28 19:16:09.505  INFO 10172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28 19:16:09.519  INFO 10172 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-04-28 19:16:10.131  INFO 10172 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28 19:16:10.137  INFO 10172 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 19:16:10.773  INFO 10172 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@15b4e0ea, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71e3c435, org.springframework.security.web.context.SecurityContextPersistenceFilter@43dd3342, org.springframework.security.web.header.HeaderWriterFilter@40133c95, org.springframework.security.web.authentication.logout.LogoutFilter@621aaf33, kr.co.voard.jwt.JwtAuthenticationFilter@47f44a87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78ddf798, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41916ee3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2242410, org.springframework.security.web.session.SessionManagementFilter@1a81149b, org.springframework.security.web.access.ExceptionTranslationFilter@41c44fc]
+2023-04-28 19:16:10.801  WARN 10172 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28 19:16:11.130  INFO 10172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 19:16:11.161  INFO 10172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Voard'
+2023-04-28 19:16:11.170  INFO 10172 --- [restartedMain] kr.co.voard.VoardApplication             : Started VoardApplication in 4.506 seconds (JVM running for 4.962)
+2023-04-28 19:35:58.473  INFO 10172 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 19:35:58.476  INFO 10172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-28 19:35:58.482  INFO 10172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-28 19:36:06.265  INFO 4056 --- [restartedMain] kr.co.voard.VoardApplication             : Starting VoardApplication using Java 17.0.4 on 1004- with PID 4056 (C:\Users\java2\Desktop\WorkSpace\SpringBoot\Voard\target\classes started by java2 in C:\Users\java2\Desktop\WorkSpace\SpringBoot\Voard)
+2023-04-28 19:36:06.266  INFO 4056 --- [restartedMain] kr.co.voard.VoardApplication             : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 19:36:06.307  INFO 4056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-28 19:36:06.307  INFO 4056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-28 19:36:06.779  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 19:36:06.821  INFO 4056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2023-04-28 19:36:07.390  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 19:36:07.401  INFO 4056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 19:36:07.402  INFO 4056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-28 19:36:07.454  INFO 4056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 19:36:07.454  INFO 4056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1146 ms
+2023-04-28 19:36:07.596  INFO 4056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28 19:36:07.638  INFO 4056 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-28 19:36:07.760  INFO 4056 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-28 19:36:07.837  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-28 19:36:08.079  INFO 4056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-28 19:36:08.088  INFO 4056 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-04-28 19:36:08.601  INFO 4056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28 19:36:08.609  INFO 4056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 19:36:09.166  INFO 4056 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bc226fb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e3c4c16, org.springframework.security.web.context.SecurityContextPersistenceFilter@70fea771, org.springframework.security.web.header.HeaderWriterFilter@3f69285d, org.springframework.security.web.authentication.logout.LogoutFilter@3a4ef05d, kr.co.voard.jwt.JwtAuthenticationFilter@41d3b7a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16ada513, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@181998ba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12208c5, org.springframework.security.web.session.SessionManagementFilter@67ce198, org.springframework.security.web.access.ExceptionTranslationFilter@241570a0]
+2023-04-28 19:36:09.193  WARN 4056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28 19:36:09.484  INFO 4056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 19:36:09.508  INFO 4056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 19:36:09.516  INFO 4056 --- [restartedMain] kr.co.voard.VoardApplication             : Started VoardApplication in 3.585 seconds (JVM running for 3.926)
+2023-04-28 19:36:14.537  INFO 4056 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 19:36:14.537  INFO 4056 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28 19:36:14.538  INFO 4056 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-28 19:36:14.550  INFO 4056 --- [http-nio-8080-exec-1] kr.co.voard.jwt.JwtAuthenticationFilter  : filter...1 : null
+2023-04-28 19:36:14.551  INFO 4056 --- [http-nio-8080-exec-1] kr.co.voard.jwt.JwtAuthenticationFilter  : filter...3
